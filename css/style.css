@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.body-container {
+  font-family: sans-serif;
+  background-color: #b3b3b3; }
+
+header {
+  background-image: url(img/portada.jpg); }
+
+.logo {
+  display: flex;
+  background-color: #b3b3b3;
+  margin: 1em; }
+
+.ul-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-decoration: none;
+  padding: 40px;
+  color: black; }
+
+.ul-container li:hover {
+  transform: scale(2);
+  transition: all 3s; }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  color: black;
+  animation: changecolor 10s infinite; }
+
+@keyframes changecolor {
+  0% {
+    background-color: aqua; }
+  25% {
+    background-color: #00b3b3; }
+  50% {
+    background-color: aqua; }
+  100% {
+    background-color: #00b3b3; } }
+
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 25px;
+  margin: 6em;
+  padding: 10px; }
+
+.helado-p {
+  font-size: 25px;
+  font-style: italic;
+  padding: 4rem; }
+
+.footer {
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black; }
+
+.sabores {
+  padding: 3em;
+  color: black; }
+
+.productos-sabores {
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px 200px;
+  grid-template-columns: auto auto auto;
+  font-size: 30px;
+  font-style: oblique;
+  align-items: center; }
+
+.productos-sabores li {
+  border: 1px solid black;
+  padding: 2em;
+  text-align: center;
+  list-style: none;
+  font-size: 20px; }
+
+.header-productos {
+  background-color: #358d8d;
+  padding: 15px; }
+
+.logo-productos {
+  background-color: #358d8d; }
+
+.section-img img {
+  padding: 5px;
+  margin: 3em; }
+
+.flecha {
+  width: 2%; }
+
+.helado {
+  width: 40%;
+  background-color: #006e6e;
+  border-radius: 25px; }
+
+.chinin-foto {
+  width: 40.5%;
+  background-color: #006e6e;
+  border-radius: 25px; }
+
+.main-productos {
+  background-color: aqua;
+  padding: 1.5px; }
+
+.footer-productos {
+  background-color: #006e6e;
+  display: flex;
+  justify-content: center; }
+
+.h2-productos {
+  font-size: 30px;
+  padding: 3em; }
+
+.ul-productos {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder; }
+
+.nosotros-contenedor {
+  background-color: #900;
+  padding: 5.5em; }
+
+.section-nosotros {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  margin: 5px;
+  background-color: #900;
+  border: 5px double black; }
+
+.elaboracion-img {
+  width: 80%;
+  padding: 15px;
+  border-radius: 35px; }
+
+.parrafo {
+  font-size: 2em;
+  padding: 6px;
+  background-color: #900; }
+
+.footer-nosotros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.copahelada-img {
+  height: 10%;
+  padding: 2em; }
+
+.ul-nosotros {
+  font-size: 3em; }
+
+.logo-contacto {
+  margin: 1em;
+  background-color: aqua; }
+
+.contacto-contenedor {
+  background-color: aqua; }
+
+.sociales {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 2em;
+  background-color: aqua; }
+
+.footer-contacto {
+  display: flex;
+  justify-content: center; }
+
+.footer-contacto p {
+  padding: 3em;
+  font-size: 3em; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 32px; }
+
+hr {
+  height: 5px; }

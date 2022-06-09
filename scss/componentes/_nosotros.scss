@@ -1,0 +1,44 @@
+@import "base/colores";
+
+.nosotros-contenedor{
+        background-color: $rojo;
+        padding: 5.5em;
+}
+
+.section-nosotros{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        margin: 5px;
+        background-color: $rojo;
+        border: 5px double $negro;
+
+}
+
+.elaboracion-img{
+        width: 80%;
+        padding: 15px;
+        border-radius: 35px;
+}
+
+.parrafo{
+        font-size: 2em;
+        padding: 6px;
+        background-color: $rojo;
+}
+
+.footer-nosotros{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.copahelada-img{
+        height: 10%;
+        padding: 2em;
+
+}
+
+.ul-nosotros{
+        font-size: 3em;
+}

@@ -1,0 +1,104 @@
+@import "base/colores";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body-container{
+    font-family: sans-serif;
+    background-color: darken($color: $blanco, $amount: 30%);
+}
+
+header{             
+    background-image: url(img/portada.jpg);
+}
+
+.logo { display: flex;
+    background-color: darken($color: $blanco, $amount: 30%);
+    margin: 1em;
+
+}
+
+.ul-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-decoration: none;
+    padding: 40px;
+    color: $negro;     
+         
+}
+.ul-container li:hover{
+    transform: scale(2);
+    transition: all 3s;
+}
+
+h1{     
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    color: $negro;
+    animation: changecolor 10s infinite;
+}
+@keyframes changecolor{
+    0%{
+         background-color: $celeste;    
+    }
+    25%{
+         background-color: darken($color: $celeste, $amount: 15%)   
+    }
+    50%{
+         background-color: $celeste;           
+    }
+    100%{
+         background-color: darken($color: $celeste, $amount: 15%)  
+    }
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    color: $negro;
+    font-size: 25px;
+    margin: 6em;
+    padding: 10px;
+}
+.helado-p{
+    font-size: 25px;
+    font-style: italic;
+    padding: 4rem;
+    
+}
+
+.footer{
+    font-size: 25px;
+    color: $negro;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+    border: 2px solid $negro;
+}         
+.sabores{
+    padding: 3em;
+    color: darken($color: $celeste, $amount: 65%)
+}
+
+.productos-sabores{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-columns: auto auto auto;
+    font-size: 30px;
+    font-style: oblique;
+    align-items: center;
+    
+}
+.productos-sabores li{
+    border: 1px solid $negro;
+    padding: 2em;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+
+}

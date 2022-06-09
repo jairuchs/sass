@@ -1,0 +1,30 @@
+@import "base/colores";
+
+.logo-contacto{
+    margin: 1em;
+    background-color: $celeste;
+}
+
+.contacto-contenedor{
+    background-color: $celeste;
+}
+
+.sociales{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 2em;
+    background-color: $celeste;
+
+}
+
+.footer-contacto{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-contacto p{
+    padding: 3em;
+    font-size: 3em;
+}
