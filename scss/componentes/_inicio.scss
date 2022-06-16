@@ -6,30 +6,27 @@
 }
 
 .body-container{
-    font-family: sans-serif;
-    background-color: darken($color: $blanco, $amount: 30%);
+    
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-header{             
-    background-image: url(img/portada.jpg);
+.menu-contenedor{             
+
+    background-image: radial-gradient(circle at 68.47% 10.39%, #ffffe9 0, #ffffe9 7.14%, #ffffe9 14.29%, #ffffe9 21.43%, #f7ffe8 28.57%, #e9ffe5 35.71%, #daffe1 42.86%, #cdf2da 50%, #c2e3d2 57.14%, #b9d6cb 64.29%, #b2cbc4 71.43%, #adc1bd 78.57%, #a9bab8 85.71%, #a7b4b4 92.86%, #a5b0b1 100%);
+
 }
 
 .logo { display: flex;
-    background-color: darken($color: $blanco, $amount: 30%);
+    background-color: $blanco;
     margin: 1em;
 
 }
 
-.ul-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    text-decoration: none;
-    padding: 40px;
-    color: $negro;     
-         
-}
-.ul-container li:hover{
+
+.navbar-nav li:hover{
     transform: scale(2);
     transition: all 3s;
 }
@@ -40,7 +37,7 @@ h1{
     padding: 10px;
     margin: 5px;
     color: $negro;
-    animation: changecolor 10s infinite;
+    animation: changecolor 5s infinite;
 }
 @keyframes changecolor{
     0%{
@@ -68,37 +65,23 @@ h1{
 .helado-p{
     font-size: 25px;
     font-style: italic;
-    padding: 4rem;
+    padding: 8em;
     
 }
 
-.footer{
-    font-size: 25px;
-    color: $negro;
-    padding: 10px;
-    display: flex; 
+.sabores-inicio{
+    display: flex;
     justify-content: center;
-    border: 2px solid $negro;
-}         
-.sabores{
-    padding: 3em;
-    color: darken($color: $celeste, $amount: 65%)
-}
-
-.productos-sabores{
-    display: grid;
-    grid-template-rows: 200px 200px 200px 200px 200px;
-    grid-template-columns: auto auto auto;
-    font-size: 30px;
-    font-style: oblique;
-    align-items: center;
+    padding: 5em;
     
 }
-.productos-sabores li{
-    border: 1px solid $negro;
-    padding: 2em;
-    text-align: center;
-    list-style: none;
-    font-size: 20px;
 
+.p-footer{
+    font-size: 20px;
+    color: $negro;
+    display: flex;
+    justify-content: end;
+    margin: 4px;
+    padding: 5px;
 }
+

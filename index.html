@@ -4,26 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trabajo</title>
+    <meta name="copyright" content="desarrollo web ecommerce">
+    <meta name="author" content="cruz jairo" >
+    <meta name="audience" content="all">
+    <meta name="descripcion" content="comercio dedicado a la venta de helados artesanales elaborados por los propios dueños.">
+    <meta name="keywords" content="ecommerce, tienda, helados">
+    <meta name="robots" content="index, all, follow"> 
+    <meta name="category" content="helados artesanales">
+    <meta name="viewport" content="width=device, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <title>Heladeria La Reina de wilde</title>
+
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="scss/styles.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body class="body-container">
     <header class="menu-contenedor">
-        <nav>
-            <img class="logo" src="img/icons8-fresa-64.png" alt="logo">
-
-            <ul class="ul-container">
-                <li class="inicio">
-                    <a href="index.html">Inicio</a></li> 
-                <li class="productos">
-                    <a  href="productos.html">Productos</a></li> 
-                <li class="nosotros">
-                    <a  href="nosotros.html">Nosotros</a></li> 
-                <li class="contacto">
-                    <a href="contacto.html">Contacto</a></li> 
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/icono.png" alt="icon"></a>
+                <button class="navbar-toggler" type="button"
+                 data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                 </li>
+                 <li class="nav-item">
+                 <a class="nav-link" href="productos.html">productos</a>
+                 </li>
+                 <li >
+                 <a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                 <li >
+                 <a class="nav-link" href="contacto.html">Contacto</a></li>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">Action</a></li>
+                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                   <li><hr class="dropdown-divider"></li>
+                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                 </ul>
+                  </li>
+                  <li class="nav-item">
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <hr>
    <main class="contenedor-main">
@@ -38,30 +65,19 @@
     </main>
 
     <section class="helado-p">
-        <p>El helado es el amortiguador perfecto, porque puedes hacer las cosas de una manera un tanto alegre. Además, la gente tiene una respuesta emocional al helado, es más que comida. Así que creo que cuando combinas el cuidado y la comida maravillosa, es una combinación muy poderosa.</p>
+        <div><p>El helado es el amortiguador perfecto, porque puedes hacer las cosas de una manera un tanto alegre. Además, la gente tiene una respuesta emocional al helado, es más que comida. Así que creo que cuando combinas el cuidado y la comida maravillosa, es una combinación muy poderosa.</p></div>
+        <div class="sabores-inicio"><img src="img/SABOR1.webp" alt="sabores"></div>
     </section>
 
     <footer class="footer-contenedor">
-        <section class="footer">
-           <h3 class="sabores">sabores</h3> 
-           <ul class="productos-sabores">
-              <li>Coco</li>
-              <li>pera</li>
-              <li>granizado</li>
-              <li>durazno</li>
-              <li>melón</li>
-              <li>crema del cielo</li>
-              <li>chocolate</li>
-              <li>cereza</li>
-              <li>limón</li>
-              <li>crema flan</li>
-              <li>tramontana</li>
-              <li>kiwi</li>
-              <li>cereza</li>
-              <li>frutilla</li>
-              <li>vainilla</li>  
-           </ul>
+        <section>
+            <section>
+                <div>
+                    <p class="p-footer">© Helados La Reina Todos los derechos reservados.</p>
+                </div>
+           </section>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,16 +1,14 @@
 @import "base/colores";
 
-.nosotros-contenedor{
-        background-color: $rojo;
-        padding: 5.5em;
+.body-nosotros{
+        background-image: linear-gradient(225deg, #ffd174 0, #ffd770 4.17%, #fedb6f 8.33%, #f1e06f 12.5%, #e3e472 16.67%, #d4e877 20.83%, #c4ec7f 25%, #b4ef88 29.17%, #a2f292 33.33%, #90f49e 37.5%, #7bf6ab 41.67%, #64f8b9 45.83%, #46f9c7 50%, #09fad6 54.17%, #00fae5 58.33%, #00faf3 62.5%, #00faff 66.67%, #00f9ff 70.83%, #00f8ff 75%, #00f7ff 79.17%, #00f5ff 83.33%, #00f2ff 87.5%, #00efff 91.67%, #2becff 95.83%, #5fe8ff 100%);
 }
-
 .section-nosotros{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 2em;
         margin: 5px;
-        background-color: $rojo;
         border: 5px double $negro;
 
 }
@@ -24,10 +22,10 @@
 .parrafo{
         font-size: 2em;
         padding: 6px;
-        background-color: $rojo;
 }
 
 .footer-nosotros{
+        background-color: $blanco;
         display: flex;
         justify-content: space-around;
         align-items: center;
