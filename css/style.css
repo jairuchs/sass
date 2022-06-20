@@ -48,7 +48,8 @@ h1 {
 .helado-p {
   font-size: 25px;
   font-style: italic;
-  padding: 8em; }
+  padding: 8em;
+  width: 99%; }
 
 .sabores-inicio {
   display: flex;
@@ -153,3 +154,44 @@ a {
 
 hr {
   height: 5px; }
+
+@media only screen and (max-width: 600px) {
+  /*inicio*/
+  .subtitulo {
+    font-size: 10px;
+    display: flex;
+    justify-content: center; }
+  .sabores-inicio {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+  .parrafo-seccion {
+    font-size: 15px; }
+  /*productos*/
+  .section-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  /*nosotros*/
+  .footer-nosotros {
+    display: flex;
+    display: table-row; }
+  .copahelada-img {
+    display: flex;
+    align-items: center;
+    width: 100%; }
+  .ul-nosotros {
+    font-size: 25px; }
+  /*contacto*/
+  .sociales {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+    padding: 6em; }
+  .footer-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em; } }
