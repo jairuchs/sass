@@ -1,35 +1,49 @@
 
+
 .section-img img { 
-    padding: 5px;
-    margin: 3em;
+    padding: 1em;
+    margin: 5px;
 
 
 }
 
-.flecha{
-    width: 2%;
+.section-img{
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
 }
 
-.helado{
-    width: 40%;
-    background-color: rgb(0,110,110);
-    border-radius: 25px;
+.hel-uno, .hel-dos, .hel-tres {
+    width: 33%;
 }
-.chinin-foto{
-    width: 40.5%;
-    background-color: rgb(0, 110, 110) ;
-    border-radius: 25px;
+
+.section-ice{
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hela-uno, .hela-dos, .hela-tres {
+    width: 33%;
+}
+
+
+.section-prod{
+    font-size: 20px;
+    color: $negro;
+    display: flex;
+    padding: 1em;
 }
 
 .main-productos{
-    background-color: aqua;
+    background-color: rgb(183, 247, 247);
     padding: 1.5px;
 }
 
 .footer-productos {
-    background-color: rgb(0, 110, 110);
+    background-color: rgb(183, 247, 247);
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 
 }  
 

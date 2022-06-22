@@ -61,23 +61,43 @@ h1{
     color: $negro;
     font-size: 25px;
     margin: 6em;
-    padding: 10px;
+    padding: 4em;
 }
-.helado-p{
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 25px;
     font-style: italic;
-    padding: 8em;
-    width: 99%;
+
+
     
 }
 
-.sabores-inicio{
+.img-fluid{
+
+    padding: 2em;
+
+  
+    
+}
+
+.helados-section{
     display: flex;
-    justify-content: center;
-    padding: 5em;
-    
+    justify-content: space-between;
+    padding: 8px;
 }
 
+.helados-section-dos{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.hel1, .hel2, .hel4, .hel5, .hel6, .hel7{
+
+    width: 33%;
+}
 .p-footer{
     font-size: 20px;
     color: $negro;
@@ -85,5 +105,12 @@ h1{
     justify-content: end;
     margin: 4px;
     padding: 5px;
+}
+
+.telefonos{
+    margin: 1em;
+    padding: 8px;
+    color: $negro;
+    
 }
 

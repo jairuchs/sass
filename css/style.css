@@ -43,18 +43,30 @@ h1 {
   color: black;
   font-size: 25px;
   margin: 6em;
-  padding: 10px; }
+  padding: 4em; }
 
-.helado-p {
-  font-size: 25px;
-  font-style: italic;
-  padding: 8em;
-  width: 99%; }
-
-.sabores-inicio {
+.container {
   display: flex;
-  justify-content: center;
-  padding: 5em; }
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-style: italic; }
+
+.img-fluid {
+  padding: 2em; }
+
+.helados-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px; }
+
+.helados-section-dos {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px; }
+
+.hel1, .hel2, .hel4, .hel5, .hel6, .hel7 {
+  width: 33%; }
 
 .p-footer {
   font-size: 20px;
@@ -64,31 +76,45 @@ h1 {
   margin: 4px;
   padding: 5px; }
 
+.telefonos {
+  margin: 1em;
+  padding: 8px;
+  color: black; }
+
 .section-img img {
-  padding: 5px;
-  margin: 3em; }
+  padding: 1em;
+  margin: 5px; }
 
-.flecha {
-  width: 2%; }
+.section-img {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between; }
 
-.helado {
-  width: 40%;
-  background-color: #006e6e;
-  border-radius: 25px; }
+.hel-uno, .hel-dos, .hel-tres {
+  width: 33%; }
 
-.chinin-foto {
-  width: 40.5%;
-  background-color: #006e6e;
-  border-radius: 25px; }
+.section-ice {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between; }
+
+.hela-uno, .hela-dos, .hela-tres {
+  width: 33%; }
+
+.section-prod {
+  font-size: 20px;
+  color: black;
+  display: flex;
+  padding: 1em; }
 
 .main-productos {
-  background-color: aqua;
+  background-color: #b7f7f7;
   padding: 1.5px; }
 
 .footer-productos {
-  background-color: #006e6e;
+  background-color: #b7f7f7;
   display: flex;
-  justify-content: center; }
+  flex-wrap: wrap; }
 
 .h2-productos {
   font-size: 30px;
@@ -161,10 +187,9 @@ hr {
     font-size: 10px;
     display: flex;
     justify-content: center; }
-  .sabores-inicio {
+  .img-fluid {
     display: flex;
-    justify-content: center;
-    width: 100%; }
+    justify-content: center; }
   .parrafo-seccion {
     font-size: 15px; }
   /*productos*/
