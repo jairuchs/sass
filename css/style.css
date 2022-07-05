@@ -3,9 +3,8 @@
   padding: 0; }
 
 .body-container {
-  background-image: url(../img/portada.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, rgba(174, 217, 226, 0.80576) 35%, #00d4ff 100%); }
 
 .menu-contenedor {
   background-image: radial-gradient(circle at 68.47% 10.39%, #ffffe9 0, #ffffe9 7.14%, #ffffe9 14.29%, #ffffe9 21.43%, #f7ffe8 28.57%, #e9ffe5 35.71%, #daffe1 42.86%, #cdf2da 50%, #c2e3d2 57.14%, #b9d6cb 64.29%, #b2cbc4 71.43%, #adc1bd 78.57%, #a9bab8 85.71%, #a7b4b4 92.86%, #a5b0b1 100%); }
@@ -29,13 +28,13 @@ h1 {
 
 @keyframes changecolor {
   0% {
-    background-color: aqua; }
+    background-color: white; }
   25% {
-    background-color: #00b3b3; }
+    background-color: #d9d9d9; }
   50% {
-    background-color: aqua; }
+    background-color: white; }
   100% {
-    background-color: #00b3b3; } }
+    background-color: #d9d9d9; } }
 
 .subtitulo {
   display: flex;
@@ -68,6 +67,9 @@ h1 {
 .hel1, .hel2, .hel4, .hel5, .hel6, .hel7 {
   width: 33%; }
 
+.footer-contenedor {
+  width: 100%; }
+
 .p-footer {
   font-size: 20px;
   color: black;
@@ -79,7 +81,20 @@ h1 {
 .telefonos {
   margin: 1em;
   padding: 8px;
-  color: black; }
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px; }
+
+.sociales-inicio {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+  margin: 2em; }
+
+.icono-wa, .icono-fb, .icono-is {
+  width: 20%; }
 
 .section-img img {
   padding: 1em;
@@ -158,20 +173,66 @@ h1 {
 .ul-nosotros {
   font-size: 3em; }
 
-.sociales {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin: 2em;
-  background-color: aqua; }
+.body-contacto {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, rgba(186, 226, 174, 0.690914) 35%, rgba(0, 255, 254, 0.438813) 100%); }
 
 .footer-contacto {
+  padding: 3em; }
+
+.telefonos-contacto {
+  color: black;
+  padding: 14px; }
+
+.telefonos-contacto p {
+  padding: 10px;
+  font-size: 20px; }
+
+.icono-w, .icono-f, .icono-i {
+  width: 20%; }
+
+.mapa, .direccion {
+  width: 100%;
   display: flex;
   justify-content: center; }
 
-.footer-contacto p {
-  padding: 3em;
-  font-size: 3em; }
+.form-contacto {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+
+.h2-contacto {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.input-contacto, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+.textarea {
+  min-height: 233px;
+  max-height: 300px;
+  max-width: 100%; }
+
+#boton {
+  background: #d2dcf5;
+  color: black;
+  padding: 1px; }
+
+.mapa-contacto {
+  width: 100%;
+  padding: 2em; }
 
 a {
   text-decoration: none;
@@ -192,6 +253,8 @@ hr {
     justify-content: center; }
   .parrafo-seccion {
     font-size: 15px; }
+  .sociales-inicio {
+    width: 100%; }
   /*productos*/
   .section-img {
     display: flex;
@@ -208,15 +271,10 @@ hr {
   .ul-nosotros {
     font-size: 25px; }
   /*contacto*/
-  .sociales {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5em;
-    padding: 6em; }
   .footer-contacto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em; } }
+    padding: 1em; }
+  .form-contacto {
+    width: 100%; } }

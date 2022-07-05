@@ -8,9 +8,9 @@
 
 .body-container{
     
-    background-image: url(../img/portada.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(174,217,226,0.8057598039215687) 35%, rgba(0,212,255,1) 100%);
+
 
 }
 
@@ -42,16 +42,16 @@ h1{
 }
 @keyframes changecolor{
     0%{
-         background-color: $celeste;    
+         background-color: $blanco;    
     }
     25%{
-         background-color: darken($color: $celeste, $amount: 15%)   
+         background-color: darken($color: $blanco, $amount: 15%)   
     }
     50%{
-         background-color: $celeste;           
+         background-color: $blanco;           
     }
     100%{
-         background-color: darken($color: $celeste, $amount: 15%)  
+         background-color: darken($color: $blanco, $amount: 15%)  
     }
 }
 
@@ -98,6 +98,10 @@ h1{
 
     width: 33%;
 }
+
+.footer-contenedor{
+    width: 100%;
+}
 .p-footer{
     font-size: 20px;
     color: $negro;
@@ -105,12 +109,30 @@ h1{
     justify-content: end;
     margin: 4px;
     padding: 5px;
+
 }
 
 .telefonos{
     margin: 1em;
     padding: 8px;
-    color: $negro;
+    color: $blanco;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
     
 }
 
+
+.sociales-inicio{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 2em;
+
+
+}
+
+.icono-wa, .icono-fb, .icono-is{
+    width: 20%;
+} 

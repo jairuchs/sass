@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
+<body class="body-contacto">
     <header class="contacto-contenedor">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
@@ -53,18 +53,44 @@
     </header>
     <main class="main-contacto">
         <h1>Contáctate con nosotros.</h1><hr><br>
-           <section class="sociales">
-                <div><a target="_blank" href="https://www.whatsapp.com/?lang=es"><img src="img/whatsapp.png" alt="whatsapp"></a></div>
-            
-                <div><a target="_blank" href="https://es-la.facebook.com/"><img src="img/facebook.png" alt="facebook"></a></div>
-            
-                <div><a target="_blank" href="https://www.instagram.com/"> <img src="img/instagram.png" alt="instagram"></a></div>
-           </section>
+        <section class="form-contacto">
+          <form action="">
+            <h2 class="h2-contacto">Contacto</h2>
+            <input class="input-contacto" type="text" name="Nombre" placeholder="Nombre"> 
+            <input class="input-contacto" type="text" name="correo" placeholder="correo"> 
+            <input class="input-contacto" type="text" name="telefono" placeholder="teléfono"> 
+            <textarea class="textarea" name="Mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+            <input type="button" value="Enviar" id="boton">
+          </form>
            <hr>
+        </section>
     </main>
     <footer class="footer-contacto">
-        <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13119.61391797776!2d-58.31465955!3d-34.70761434999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1652742418045!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-        <p>Direccion: Avenida Mitre 6030, Wilde.</p>
+        <section>
+          <div class="telefonos-contacto">
+             <h4 class="h4-telefonos">TELÉFONOS <hr>
+               <p>4200-8677 – Quilmes</p>
+                
+               <p> 1173962755 – Berazategui</p>
+                
+               <p> 4200-2256 – La Florida (Quilmes Oeste)</p>
+                
+               <p> 4212-1975 – San Francisco Solano</p>
+                
+               <p> 4226-9839 – Ezpeleta</p>
+                
+               <p>1121996905 – Villa Domínico (Parque)</p>
+                
+               <p>4353-1234 – Villa Domínico (Fábrica)</p>
+         </div>
+         <iframe class="mapa-contacto" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d26244.141023616794!2d-58.338472302014885!3d-34.692121947930325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-34.707614299999996!2d-58.3146596!4m5!1s0x95a33304419d114f%3A0xfcd6e8f5f12535cc!2smc%20donalds!3m2!1d-34.6798004!2d-58.3338172!5e0!3m2!1ses-419!2sar!4v1656981646216!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section class="sociales-inicio">
+                <div><a target="_blank" href="https://www.whatsapp.com/?lang=es"><img class="icono-wa" src="img/whatsapp.png" alt="whatsapp"></a></div>
+            
+                <div><a target="_blank" href="https://es-la.facebook.com/"><img class="icono-fb" src="img/facebook.png" alt="facebook"></a></div>
+            
+                <div><a target="_blank" href="https://www.instagram.com/"> <img class="icono-is" src="img/instagram.png" alt="instagram"></a></div>
+           </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

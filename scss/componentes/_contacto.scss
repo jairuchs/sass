@@ -1,21 +1,74 @@
 @import "base/colores";
 
-.sociales{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 2em;
-    background-color: $celeste;
+.body-contacto{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(186,226,174,0.6909138655462185) 35%, rgba(0,255,254,0.43881302521008403) 100%);
+
+}
+.footer-contacto{
+    padding: 3em;
 
 }
 
-.footer-contacto{
+.telefonos-contacto{
+    color: $negro;
+    padding: 14px;
+}
+
+.telefonos-contacto p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icono-w, .icono-f, .icono-i{
+        width: 20%;
+} 
+
+.mapa, .direccion{
+    width: 100%;
     display: flex;
     justify-content: center;
-
+}
+.form-contacto{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;  
+    border-radius: 7px;
 }
 
-.footer-contacto p{
-    padding: 3em;
-    font-size: 3em;
+.h2-contacto{
+    color: $blanco;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.input-contacto, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+.textarea{
+    min-height: 233px;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #d2dcf5;
+    color: $negro;
+    padding: 1px;
+}
+
+.mapa-contacto{
+    width: 100%;
+    padding: 2em;
+
 }
