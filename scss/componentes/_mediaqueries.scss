@@ -66,4 +66,57 @@
   }
 }
 
+@include tablet {
+
+//inicio
+
+.helado-p{
+  color: aliceblue;
+}
+
+//nosotros
+
+.footer-nosotros{
+  display: flex;
+  display: table-row;
+}
+.copahelada-img{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.ul-nosotros{
+  font-size: 25px;
+  text-align: center;
+  list-style:none;
+  }
+}
+
+@include desktop {
+
+//inicio
+
+.helado-p{
+  color: aliceblue;
+}
+
+//nosotros
+
+.footer-nosotros{
+  display: flex;
+  display: table-row;
+}
+.copahelada-img{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.ul-nosotros{
+  font-size: 25px;
+  text-align: center;
+  list-style:none;
+  }
+}
 
