@@ -6,3 +6,7 @@
 @import "componentes/mediaqueries";
 @import "componentes/mixins";
 @import "base/colores";
+
+.disclaimer{
+    display: none !important;
+}

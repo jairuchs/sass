@@ -308,3 +308,6 @@ hr {
     font-size: 25px;
     text-align: center;
     list-style: none; } }
+
+.disclaimer {
+  display: none !important; }
